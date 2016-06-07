@@ -1,0 +1,47 @@
+@charset "UTF-8";
+　
+div {
+  color: #1875e7;
+}
+
+body {
+  font-family: Arial,'微软雅黑';
+}
+
+a {
+  line-height: normal;
+}
+
+a:visited {
+  color: #999;
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.indent {
+  text-indent: 20px;
+}
+
+.highlight {
+  margin: 20px 0 0 0;
+}
+
+.highlight pre {
+  padding: 40px;
+  border: none;
+  background: #f7f8fa;
+  color: #1875e7;
+}
+
+.highlight pre .s {
+  color: #06a5f4;
+}
