@@ -1,0 +1,14 @@
+.avatar{
+	float:left;
+	margin-right:15px;
+	overflow:hidden;
+}
+.avatar img{
+	max-width: 100%;max-height: 100%;
+}
+.avatar.avatar-1{
+	width:55px;height:55px;border-radius: 55px;
+}
+.avatar.avatar-2{
+	width:66px;height:66px;border-radius: 66px;	
+}

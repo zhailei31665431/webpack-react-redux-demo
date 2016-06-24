@@ -62,6 +62,13 @@ gulp.task('styles:sass',function(){
             .pipe(concat('joywok-mobile.css'))
             .pipe(gulp.dest('build/styles'))
 })
+
+gulp.task('watch:scss',function(){
+    gulp.watch(['src/less/index.scss'],['styles:sass']);
+    gulp.watch(['src/less/all/*.scss'],['styles:sass']);
+})
+
+
 gulp.task('serve',function(){
     browserSync({
         notify: false,

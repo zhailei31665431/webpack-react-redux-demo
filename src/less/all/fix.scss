@@ -1,7 +1,3 @@
-
-body{
-	font-family: Arial,'微软雅黑';
-}
 a{
 	line-height:normal;
 }
@@ -21,14 +17,36 @@ ul,li{
 	text-indent:20px;
 }
 .highlight{
+	position: relative;
 	margin:20px 0 0 0;
+	background: #f7f8fa;
+}
+.highlight .highlight-bar{
+	position: absolute;top:0;left:0;width: 5px;bottom: 0;
+	border-radius: 5px 0 0 5px;
+	background: #1eadf5;
+
+}
+.highlight .highlight-copy{
+	position: absolute;top:0;right: 0;
+	width: 46px;height: 26px;line-height: 26px;color: #fff;
+	background: #ddd;border-radius: 3px;
+	text-align: center;
+	cursor: pointer;
+}
+.highlight .highlight-copy:hover{
+	background: #06a5f4;
 }
 .highlight pre{
-	padding:40px;
+	padding:20px 30px;
 	border:none;
 	background: #f7f8fa;
-	color:$blue;
+	color:#666;
+	overflow: hidden;
 }
-.highlight pre .s{
+.highlight .highlight-blue{
 	color:#06a5f4
+}
+.highlight .highlight-red{
+	color:#bf0404;
 }

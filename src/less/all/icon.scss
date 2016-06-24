@@ -1,0 +1,153 @@
+.icon{
+	display:inline-block;
+	background:url(/build/images/icons.png) no-repeat;
+	// background-size: cover;
+	background-size: 200px;
+	vertical-align:middle;
+}
+.icon-chart{
+	width:20px;
+	height:20px;
+	background-position: 0 0;
+}
+.icon-chart.active,.icon-chart:hover{
+	background-position: -20px 0;
+}
+.icon-like{
+	width:18px;height:18px;
+	background-position:0 -21px;
+}
+.icon-like.active,.icon-like:hover{
+	background-position:-20px -21px;
+}
+.icon-dept{
+	width:20px;height:19px;
+	background-position:0 -40px;
+}
+.icon-dept.active,.icon-dept:hover{
+	background-position:-27px -40px;
+}
+.icon-close{
+	width:16px;height:16px;
+	background-position:0 -60px;
+}
+.icon-close.active,.icon-close:hover{
+	background-position:-20px -60px;
+}
+.icon-filter{
+	width:18px;height:19px;
+	background-position:0 -80px;
+}
+.icon-filter.active,.icon-filter:hover{
+	background-position:-20px -80px;
+}
+.icon-pass{
+	width:19px;height:19px;
+	background-position:0 -100px;
+}
+.icon-pass.active,.icon-pass:hover{
+	background-position:-20px -100px;
+}
+.icon-no-pass{
+	width:19px;height:19px;
+	background-position:0 -120px;
+}
+.icon-no-pass.active,.icon-no-pass:hover{
+	background-position:-20px -120px;
+}
+.icon-as{
+	width:20px;height:16px;
+	background-position:0 -140px;
+}
+.icon-as.active,.icon-as:hover{
+	background-position:-20px -140px;
+}
+.icon-foward{
+	width:17px;height:19px;background-position:0 -160px;
+}
+.icon-foward.active,.icon-foward:hover{
+	background-position:-20px -160px;
+}
+.icon-people-talk{
+	width:24px;height:17px;background-position:0 -180px;
+}
+.icon-people-talk.active,.icon-people-talk:hover{
+	background-position:-26px -180px;
+}
+.icon-add{
+	width:18px;height:18px;
+	background-position:0 -200px;
+}
+.icon-add.active,.icon-add:hover{
+	background-position:-20px -200px;
+}
+.icon-less{
+	width:20px;height:2px;
+	background-position:0 -220px;
+}
+.icon-less.active,.icon-less:hover{
+	background-position:-20px -220px;	
+}
+.icon-application{
+	width:19px;height:19px;
+	background-position:0 -226px;
+}
+.icon-application.active,.icon-application:hover{
+	background-position:-20px -226px;	
+}
+.icon-file{
+	width:22px;height:18px;
+	background-position:0 -247px;
+}
+.icon-file.active,.icon-file:hover{
+	background-position:-26px -247px;	
+}
+.icon-address{
+	width:21px;height:21px;
+	background-position:0 -266px;
+}
+.icon-address.active,.icon-address:hover{
+	background-position:-26px -266px;	
+}
+.icon-good{
+	width:20px;height:20px;
+	background-position:0 -293px;
+}
+.icon-good.active,.icon-good:hover{
+	background-position:-20px -293px;	
+}
+.icon-setting{
+	width:19px;height:19px;
+	background-position:0 -313px;
+}
+.icon-setting.active,.icon-setting:hover{
+	background-position:-20px -313px;	
+}
+.icon-search{
+	width:19px;height:19px;
+	background-position:-53px 0;
+}
+.icon-search.active,.icon-search:hover{
+	background-position:-73px 0;
+}
+.icon-msg{
+	width:23px;height:19px;
+	background-position:-47px -20px;
+}
+.icon-msg.active,.icon-msg:hover{
+	background-position:-73px -20px;	
+}
+.icon-help{
+	width:19px;height:19px;
+	background-position:-53px -40px;
+}
+.icon-help.active,.icon-help:hover{
+	background-position:-73px -40px;
+}
+.icon-exit{
+	width:19px;height:19px;
+	background-position:-53px -180px;
+}
+.icon-exit.active,.icon-exit:hover{
+	background-position:-73px -180px;
+}

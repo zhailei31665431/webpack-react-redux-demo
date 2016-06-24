@@ -1,0 +1,26 @@
+.toggle{
+	position: relative;
+	width:50px;height:30px;
+	border-radius: 30px;
+	border:1px solid #e2e2e2;
+	overflow: hidden;
+	cursor: pointer;
+	.icon-toggle-cirtal{
+		position:absolute;
+		left:0;top:-1px;bottom:0;
+		width:30px;
+		height:30px;
+		border:1px solid #e2e2e2;
+		border-radius:30px;
+		background:#fff;
+	 transition: all 1s ease
+	}
+}
+.toggle.active{
+	background:#4cd964;
+	border-color: #4cd964;
+	.icon-toggle-cirtal{
+		left:20px;
+		transition: all 1s ease
+	}
+}

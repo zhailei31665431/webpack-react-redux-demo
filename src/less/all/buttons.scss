@@ -1,0 +1,94 @@
+.btn{
+	width:100%;
+	height:45px;
+	border:1px solid #dddddd;
+	padding:0 20px;
+	line-height: 45px;
+	background:$white;
+	color:#777777;
+	outline: none;
+	text-align:center;
+	font-size:16px;
+	&:hover{
+		outline:none!important;
+		color:#777777;
+	}
+	&:focus{
+		outline:none!important;
+		color:#777777;
+	}
+	&:visited{
+		outline:none!important;
+	}
+	&:active{
+		outline:none!important;
+		box-shadow:none;
+	}
+}
+.btn[disabled]{
+	opacity: 0.5;
+}
+.btn-1{
+	background:#777;
+	color:$white;
+	&:hover{
+		color:$white;
+	}
+}
+.btn2{
+	background:#157efb;
+	color:$white;
+	&:hover{
+		color:$white;
+	}
+}
+.btn3{
+	background:#4174d9;
+	color:$white;
+	&:hover{
+		color:$white;
+	}
+}
+.btn4{
+	background:#0ab771;
+	color:$white;
+	&:hover{
+		color:$white;
+	}
+}
+.btn5{
+	background:#f2bb16;
+	color:$white;
+	&:hover{
+		color:$white;
+	}
+}
+.btn6{
+	background:#ff3b2f;
+	color:$white;
+	&:hover{
+		color:$white;
+	}
+}
+.btn7{
+	background:#a775e5;
+	color:$white;
+	&:hover{
+		color:$white;
+	}
+}
+.btn8{
+	background:#777777;
+	color:$white;
+	&:hover{
+		color:$white;
+	}
+}
+
+.btn{
+	i{
+		display: inline-block;
+		vertical-align:middle;
+	}
+}
+

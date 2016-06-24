@@ -1,0 +1,70 @@
+@import "color.scss";
+@import "pack.scss";
+.card{
+	position:relative;
+	.card-bg{
+		position: absolute;
+		top:0;right:0;bottom:0;left:0;
+		z-index: 1;
+	}
+	.card-bg-color{
+		position: absolute;
+		top:0;right:0;bottom:0;left:0;
+		z-index: 2;
+		background: $white;
+	}
+	.card-w{
+		position:relative;
+		z-index: 3;
+		overflow: hidden;
+		padding:20px $side-width;
+	}
+}
+
+.card.list-card{
+}
+.card.top-card{
+	.card-bg-color{
+		background:$header-bg-color-1;
+	}
+	.card-w{
+		padding:20px $side-width 35px;
+		color:$white;
+	}
+}
+.card.top-card-2{
+	text-align:center;
+	.card-bg-color{
+		background:$header-bg-color-1;
+	}
+	.card-w{
+		padding:30px $side-width 30px;
+	}
+	.avatar{
+		float:none;
+		margin:0 auto;
+	}
+	.card-name{
+		margin:15px 0 0;
+		font-size:18px;
+		color:$white;
+	}
+}
+
+.info{
+	display: block;
+	.info-1{
+		margin-top:8px;
+		font-size: 15px;
+	}
+	.info-2{
+		margin-top:10px;
+		font-size: 13px;
+	}
+	.info-2 span{
+		margin:0 0 0 10px;
+		&:first-child{
+			margin:0;
+		}
+	}
+}
