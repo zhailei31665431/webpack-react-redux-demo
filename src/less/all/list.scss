@@ -146,6 +146,7 @@
 	    height:48px;line-height:48px;
 	    padding: 0 10px;
 	    background:$white;
+	    overflow:hidden;
 	    .list-item-w{
 		    overflow: hidden;
 		    border-top: 1px solid #ddd;
@@ -163,11 +164,11 @@
 
 
 	    }
-	    .checkbox{
+	    .checkbox-w{
 		    	float:right;
 		    	margin:20px 0 0 20px;
 		  }
-		  .radio{
+		  .radio-w{
 		  	float:right;
 		  	margin:20px 0 0 20px;
 		  }

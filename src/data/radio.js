@@ -9,7 +9,7 @@ var data = {
 							<div class="highlight-bar"></div>\
 							<div class="highlight-copy" target-id="radio">复制</div>\
 							<pre>\
-								<code class="language-html" data-lang="html">&lt;div <span class="highlight-blue">class=</span><span class="highlight-red">"list-item list-item-file"</span>&gt;<br/>&nbsp;&lt;i <span class="highlight-blue">class=</span><span class="highlight-red">"radio"</span> name="id"&gt;&lt;/i&gt;<br/>&nbsp;&lt;div <span class="highlight-blue">class=</span><span class="highlight-red">"list-item-w"</span>&gt;<br/> &nbsp;&lt;div <span class="highlight-blue">class=</span><span class="highlight-red">"list-item-val ellipsis"</span>&gt;0102&lt;/div&gt;<br/>&nbsp;&lt;/div&gt;<br/>&lt;/div&gt;<br/>&lt;div <span class="highlight-blue">class=</span><span class="highlight-red">"list-item list-item-file"</span>&gt;<br/>&nbsp;&lt;i <span class="highlight-blue">class=</span><span class="highlight-red">"radio active"</span> name="id"&gt;&lt;/i&gt;<br/>&nbsp;&lt;div <span class="highlight-blue">class=</span><span class="highlight-red">"list-item-w"</span>&gt;<br/> &nbsp;&lt;div <span class="highlight-blue">class=</span><span class="highlight-red">"list-item-val ellipsis"</span>&gt;01012312312&lt;/div&gt;<br/>&nbsp;&lt;/div&gt;<br/>&lt;/div&gt;</code>\
+								<code class="language-html" data-lang="html">&lt;div <span class="highlight-blue">class=</span><span class="highlight-red">"list-item list-item-file"</span>&gt;<br/>&nbsp;&lt;div <span class="highlight-blue">class=</span><span class="highlight-red">"radio-w"</span>&gt;<br/> &nbsp;&lt;input type="radio" id="radio-1" name="radio-1"/&gt;<br/> &nbsp;&lt;label for="radio-1"&gt;&lt;/label&gt;<br/>&nbsp;&lt;/div&gt;<br/>&nbsp;&lt;div <span class="highlight-blue">class=</span><span class="highlight-red">"list-item-w"</span>&gt;<br/> &nbsp;&lt;div <span class="highlight-blue">class=</span><span class="highlight-red">"list-item-val ellipsis"</span>&gt;0102&lt;/div&gt;<br/>&nbsp;&lt;/div&gt;<br/>&lt;/div&gt;</code>\
 							</pre>\
 						</div>\
 					</div>',
@@ -23,13 +23,19 @@ var data = {
 								<div class="list-block-h"></div>\
 								<div class="list-block-w">\
 									<div class="list-item list-item-file">\
-										<i class="radio" name="id"></i>\
+										<div class="radio-w">\
+											<input type="radio" id="radio-1" name="radio-1"/>\
+											<label for="radio-1"></label>\
+										</div>\
 										<div class="list-item-w">\
 											<div class="list-item-val ellipsis">0102</div>\
 										</div>\
 									</div>\
 									<div class="list-item list-item-file">\
-										<i class="radio active" name="id"></i>\
+										<div class="radio-w">\
+											<input type="radio" id="radio-2" name="radio-1"/>\
+											<label for="radio-2"></label>\
+										</div>\
 										<div class="list-item-w">\
 											<div class="list-item-val ellipsis">01012312312</div>\
 										</div>\
@@ -39,7 +45,7 @@ var data = {
 						</div>\
 					</div>\
 				</div>',
-	sourceCode:'<div&nbsp;class="list-item&nbsp;list-item-file"><br/>&nbsp;<i&nbsp;class="radio"&nbsp;name="id"></i><br/>&nbsp;<div&nbsp;class="list-item-w"><br/>&nbsp;&nbsp;<div&nbsp;class="list-item-val&nbsp;ellipsis">0102</div><br/>&nbsp;</div><br/></div><br/><div&nbsp;class="list-item&nbsp;list-item-file"><br/>&nbsp;<i&nbsp;class="radio&nbsp;active"&nbsp;name="id"></i><br/>&nbsp;<div&nbsp;class="list-item-w"><br/>&nbsp;&nbsp;<div&nbsp;class="list-item-val&nbsp;ellipsis">01012312312</div><br/>&nbsp;</div><br/></div>'
+	sourceCode:'<div&nbsp;class="list-item&nbsp;list-item-file"><br/>&nbsp;<div&nbsp;class="radio-w"><br/>&nbsp;&nbsp;<input&nbsp;type="radio"&nbsp;id="radio-1"&nbsp;name="radio-1"/><br/>&nbsp;&nbsp;<label&nbsp;for="radio-1"></label><br/>&nbsp;</div><br/>&nbsp;<div&nbsp;class="list-item-w"><br/>&nbsp;&nbsp;<div&nbsp;class="list-item-val&nbsp;ellipsis">0102</div><br/>&nbsp;</div><br/></div>'
 }
 
 export default data;

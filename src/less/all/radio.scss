@@ -13,3 +13,26 @@
 		background-size: 200px;
 		background-position:-20px -100px;
 	}		
+
+
+
+.radio-w{
+	input[type="radio"]{
+		display: none;
+	}
+	input[type="radio"] + label{
+		display: block;
+		width:20px;
+		height:20px;
+		background: url(/build/images/icons.png) no-repeat;
+	  background-size: 300px;
+	  background-position:-80px -460px;
+	  cursor: pointer;
+	}
+	input[type="radio"]:checked + label{
+		border:none;
+		background:url(/build/images/icons.png) no-repeat;
+		background-size: 200px;
+		background-position:-20px -100px;
+	}
+}

@@ -12,7 +12,9 @@ article{position: relative;overflow: hidden;}
 article .sidbar{position: absolute;top:0;left: 0;bottom: 0;padding:94px 0;width: 356px;background:-webkit-linear-gradient(top, #2d7cfe 0%,#01cdf6 100%);}
 article .sidbar.fix{
 	position: fixed;top:0;
-	padding:63px 0;
+	botton:0px;
+	padding:33px 0;
+	overflow-y: auto;
 }
 .sidbar-item{color: #fff;}
 .sidbar-item .sidbar-item-show{position:relative;text-indent:107px;height: 38px;line-height: 38px;cursor: pointer;}
@@ -314,4 +316,28 @@ pre code{
 }
 .html-action-sheet .sheet-2{
 	margin-top: -97.5px;
+}
+
+.html-alert .custom-alert{
+	position: absolute;top:0;
+}
+.custom-alert .custom-alert-w{
+	margin-top: -165px;
+}
+.custom-alert .custom-alert-c{
+	text-align: center;
+}
+.custom-alert .custom-alert-c img{
+	width: 70px;height: 70px;
+	border-radius: 70px;
+	margin:0 auto;
+}
+.custom-alert .custom-alert-c h1{
+	font-size: 16px;color: #333;
+	margin-top: 20px;
+}
+.custom-alert .custom-alert-c p{
+	margin-top: 10px;
+	font-size: 13px;color: #999999;
+	line-height: 20px;
 }

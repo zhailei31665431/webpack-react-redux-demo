@@ -37,6 +37,8 @@ const oldData = [
 			require('./../data/input/input-box.js')['default'],
 			require('./../data/input/drop-down-input.js')['default'],
 			require('./../data/input/input-icon.js')['default'],
+
+			require('./../data/textarea.js')['default'],
 			require('./../data/select/index.js')['default'],
 			require('./../data/select/popup-select.js')['default'],
 			require('./../data/select/drop-down-select.js')['default'],
@@ -64,7 +66,15 @@ const oldData = [
 	  	require('./../data/ActionSheet/action-sheet-1.js')['default'],
 	  	require('./../data/ActionSheet/action-sheet-2.js')['default'],
 	  	require('./../data/ActionSheet/action-sheet-3.js')['default'],
+	  	require('./../data/dialog/index.js')['default'],
+	  	require('./../data/dialog/alert.js')['default'],
+	  	require('./../data/dialog/confirm.js')['default'],
 	  	require('./../data/grid/index.js')['default'],
+	    require('./../data/loading/index.js')['default'],
+	   	require('./../data/loading/loading-progress-bar.js')['default']
+	   	// require('./../data/loading/loading-tip.js')['default']
+	   	//loading -tip 
+
 	  ];
 
 let listData = Object.assign({},oldData);

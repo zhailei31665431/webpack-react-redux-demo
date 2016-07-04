@@ -31,7 +31,7 @@ var data = {
 					</div>',
 	val:"如何使用",
 	parent_id:"Icons",
-	html:"list-card"
+	html:""
 }
 
 export default data;

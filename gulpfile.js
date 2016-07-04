@@ -50,8 +50,7 @@ var paths = {
     sassDestPath: ['build/styles'],
     sassImportsPath: ['src/less']
 };
-gulp.task('styles:sass',function(){
-    
+gulp.task('styles:sass',function(){   
     var concat = require('gulp-concat');
     return sass(paths["sassSrcPath"],{
                 style: 'expanded',
@@ -67,7 +66,6 @@ gulp.task('watch:scss',function(){
     gulp.watch(['src/less/index.scss'],['styles:sass']);
     gulp.watch(['src/less/all/*.scss'],['styles:sass']);
 })
-
 
 gulp.task('serve',function(){
     browserSync({

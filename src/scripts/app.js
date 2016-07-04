@@ -174,7 +174,6 @@ class Controller extends Component{
 }
 
 
-
 function event(dispatch){
 	return {
 		onSidbarClick: (id) => {

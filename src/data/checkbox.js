@@ -10,7 +10,7 @@ var data = {
 							<div class="highlight-bar"></div>\
 							<div class="highlight-copy" target-id="checkbox">复制</div>\
 							<pre>\
-								<code class="language-html" data-lang="html">&lt;div <span class="highlight-blue">class=</span><span class="highlight-red">"list-item list-item-file"</span>&gt;<br/>&nbsp;&lt;img <span class="highlight-blue">class=</span><span class="highlight-red">"pic"</span> src="http://www.joywok.com/public/images/avatar/hdr-pic.png"/&gt;<br/>&nbsp;&lt;div <span class="highlight-blue">class=</span><span class="highlight-red">"checkbox"</span>/&gt;&lt;/div&gt;<br/>&nbsp;&lt;div <span class="highlight-blue">class=</span><span class="highlight-red">"list-item-w"</span>&gt;<br/> &nbsp;&lt;div <span class="highlight-blue">class=</span><span class="highlight-red">"list-item-val ellipsis"</span>&gt;0102&lt;/div&gt;<br/>&nbsp;&lt;/div&gt;<br/>&lt;/div&gt;</code>\
+								<code class="language-html" data-lang="html">&lt;div <span class="highlight-blue">class=</span><span class="highlight-red">"list-item list-item-file"</span>&gt;<br/>&nbsp;&lt;img <span class="highlight-blue">class=</span><span class="highlight-red">"pic"</span> src="http://www.joywok.com/public/images/avatar/hdr-pic.png"/&gt;<br/>&nbsp;&lt;div <span class="highlight-blue">class=</span><span class="highlight-red">"checkbox-w"</span>&gt;<br/> &nbsp;&lt;input type="checkbox" id="checkbox-1"/&gt;<br/> &nbsp;&lt;label for="checkbox-1"&gt;&lt;/label&gt;<br/>&nbsp;&lt;/div&gt;<br/>&nbsp;&lt;div <span class="highlight-blue">class=</span><span class="highlight-red">"list-item-w"</span>&gt;<br/> &nbsp;&lt;div <span class="highlight-blue">class=</span><span class="highlight-red">"list-item-val ellipsis"</span>&gt;0102&lt;/div&gt;<br/>&nbsp;&lt;/div&gt;<br/>&lt;/div&gt;</code>\
 							</pre>\
 						</div>\
 					</div>',
@@ -25,14 +25,20 @@ var data = {
 								<div class="list-block-w">\
 									<div class="list-item list-item-file">\
 										<img class="pic" src="http://www.joywok.com/public/images/avatar/hdr-pic.png"/>\
-										<div class="checkbox"/></div>\
+										<div class="checkbox-w">\
+											<input type="checkbox" id="checkbox-1"/>\
+											<label for="checkbox-1"></label>\
+										</div>\
 										<div class="list-item-w">\
 											<div class="list-item-val ellipsis">0102</div>\
 										</div>\
 									</div>\
 									<div class="list-item list-item-file">\
 										<img class="pic" src="http://www.joywok.com/public/images/avatar/hdr-pic.png"/>\
-										<div class="checkbox active"/></div>\
+										<div class="checkbox-w">\
+											<input type="checkbox" checked id="checkbox-2"/>\
+											<label for="checkbox-2"></label>\
+										</div>\
 										<div class="list-item-w">\
 											<div class="list-item-val ellipsis">0102</div>\
 										</div>\
@@ -42,7 +48,7 @@ var data = {
 						</div>\
 					</div>\
 				</div>',
-	sourceCode:'<div&nbsp;class="list-item&nbsp;list-item-file"><br/>&nbsp;<img&nbsp;class="pic"&nbsp;src="http://www.joywok.com/public/images/avatar/hdr-pic.png"/><br/>&nbsp;<div&nbsp;class="checkbox"/></div><br/>&nbsp;<div&nbsp;class="list-item-w"><br/>&nbsp;&nbsp;<div&nbsp;class="list-item-val&nbsp;ellipsis">0102</div><br/>&nbsp;</div><br/></div>'
+	sourceCode:'<div&nbsp;class="list-item&nbsp;list-item-file"><br/>&nbsp;<img&nbsp;class="pic"&nbsp;src="http://www.joywok.com/public/images/avatar/hdr-pic.png"/><br/>&nbsp;<div&nbsp;class="checkbox-w"><br/>&nbsp;&nbsp;<input&nbsp;type="checkbox"&nbsp;id="checkbox-1"/><br/>&nbsp;&nbsp;<label&nbsp;for="checkbox-1"></label><br/>&nbsp;</div><br/>&nbsp;<div&nbsp;class="list-item-w"><br/>&nbsp;&nbsp;<div&nbsp;class="list-item-val&nbsp;ellipsis">0102</div><br/>&nbsp;</div><br/></div>'
 }
 
 export default data;
